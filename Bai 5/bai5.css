@@ -1,0 +1,52 @@
+.thumb{
+    text-align: center;
+    color : #C2185B;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.box_1{
+    background-color: #FFC0CB;
+    padding-top : 2px;
+    padding-bottom : 2px;
+    padding-left : 5px;
+    width: 25%;
+    gap:100px;
+
+}
+
+.box_2{
+    background-color: #FFC0CB;
+    padding-top : 2px;
+    padding-bottom : 2px;
+    padding-left : 5px;
+    width: 20%;
+}
+
+.main-content{
+    margin-left : 30px;    
+}
+
+.copyright{
+    float:right;
+    color : #0000EE;
+    text-decoration: underline;
+}
+
+ul.first{
+    list-style-type: square;
+    color : black;
+}
+
+ul.second{
+    list-style-type: circle;
+    color : black;
+}
+
+img{
+    margin: 25px;
+}
