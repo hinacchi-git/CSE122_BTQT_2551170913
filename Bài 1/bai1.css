@@ -1,0 +1,23 @@
+.header{
+    background-color: #FFD9E6;
+}
+
+body{
+    background-color: #FFFDE7 ;
+    border-color: #9e9e9e;
+   text-align: center;
+}
+
+h1{
+    color: red;
+}
+
+.title{
+   background-color: pink;
+   font-size:25px;
+
+}
+
+.First-collum{
+    font-size:20px;
+}

@@ -1,0 +1,86 @@
+body{
+    background : linear-gradient(to bottom , #7ec8e3 ,#0a5c8a ) 
+}
+
+.container{
+    background-color: #f2f2f2;
+    width: 95%;
+    margin: 0 auto;
+    padding: 20px;
+    height : 635px;
+    margin-top : 35px;
+    margin-bottom : 35px;
+    border-radius: 8px;
+}
+
+
+img{
+    width: 35%;
+    float: right;
+    border-radius: 10px;
+    margin-left : 10px;
+    margin-top:20px
+    
+}
+
+.sub{
+    background-color:#0b3d5c;
+    color : #FFFFFF;
+    text-align: left;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin-top : 5px;
+    font-size : 25px;
+    margin-right:20px;
+    margin-left: 20px;
+    height: auto;
+    font-style : italic;
+}
+
+.first p::first-letter {
+  font-size: 65px;
+  float: left;
+  line-height : 0.5;
+  margin-top : 5px;
+    margin-right : 5px;
+    color: #0b3d5c;
+    text-allign : center;
+    margin-top : 10px;
+    font-weight : bold;
+}
+
+.second p::first-letter {
+  font-size: 65px;
+  float: left;
+  line-height : 0.5;
+  margin-top : 5px;
+    margin-right : 5px;
+    color: #0b3d5c;
+    text-allign : center;
+    margin-top : 10px;
+    font-weight : bold;
+}
+
+
+.title{
+    text-align: center;
+    color: #0b3d5c;
+    font-size: 40px;
+    margin-bottom : 20px;
+   
+}
+
+.first{
+    font-size : 30px;
+    padding-left : 20px;
+    
+}
+
+.second{
+      font-size : 30px;
+    padding-left : 20px;
+}
+
+

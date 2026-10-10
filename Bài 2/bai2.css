@@ -1,0 +1,24 @@
+body{
+    background-color:#A8861B;
+    color:white;
+}
+
+h1{
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+    font-size:55px;
+}
+
+img{
+    float: right;
+    border: 3px solid white;
+    margin-right:30px;
+    width:27%;
+    margin-left : 15px;
+}
+
+p{
+    text-align: justify;
+   margin-left: 15px;
+   font-size:25px;
+}
