@@ -1,0 +1,68 @@
+body{
+    background-color: grey;
+}
+
+.container{
+    background-color: white;
+    width:98%;
+    height: 580px;
+    margin-top:30px;
+    margin-bottom: 30px;
+    margin-left:15px ;
+    margin-rightr:15px ;
+}
+
+.hero-banner{
+    background-color: #C8102E;
+    color:#FFFFFF;
+    text-align: center;
+    font-size:30px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.mini-banner{
+    text-align: center;
+    color: #C8102E;
+    background-color:#FBE3E8 ;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top:2px;
+    padding-bottom:2px;
+}
+
+img{
+    float:right;
+    width: 15%;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+.right{
+    float: right;
+    width:35%;
+    font-size:20px;
+    border-left: 1px solid grey;
+}
+
+
+
+.left{
+    float:left;
+    width:48%;
+    font-size: 20px;
+    padding-top:250px;
+}
+
+li.square{
+    list-style-type: square;
+    color:red;
+    font-weight: bold;
+    padding-bottom: 4px;
+    padding-top: 2px;
+}
+
+li.circle{
+    list-style-type: circle;
+    color:black;
+}

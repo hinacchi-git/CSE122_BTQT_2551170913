@@ -1,0 +1,142 @@
+.container{
+    width : 98%;
+    box-sizing: border-box;
+    background-color: white; 
+    margin-left : 15px;
+    height :550px;
+    margin-top: 50px;
+    border-radius : 20px;
+    display: flex;
+}
+
+body{
+    background-color: grey;
+}
+
+.information{
+    width : 26%;
+    background : linear-gradient(#1565C0 ,#0d3f7a ) ;
+    padding-left: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    align-content: center;
+    
+}
+
+.avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: white;
+    font-size: 50px;
+   margin-bottom : 15px;
+   margin-left : 125px;  
+   margin-right:100px;
+   color : #1565C0 ; 
+   font-weight: bold;
+}
+
+.name{
+    text-align: center;
+    font-weight: bold;
+    color:white;
+    font-size : 25px;
+    margin-bottom : 5px;
+}
+
+.sub-information{
+    color :white;
+    text-align: center;
+}
+
+.social-media{
+    color : white;
+    margin-left : 20px;
+}
+
+.headline{
+    font-size: 30px;
+    margin-top : 20px;
+    margin-left: 10px;
+    padding-bottom : 5px;
+    border-bottom : 2px solid grey;
+    width : 95%;
+    color : #1565C0;
+    font-weight: bold;
+}
+
+.sub{
+    margin-top : 10px;
+    font-size : 20px;
+    width : 95%;
+    margin-left : 10px;
+}
+
+.skill{
+    display : flex;
+    width:100%;
+    margin-left : 15px;
+    color : #0d3f7a;
+    margin-top : 20px;
+    font-size : 20px;
+}
+
+.first{
+    background-color: #e3f0ff;
+    padding-left : 10px;
+    padding-right : 10px;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-radius : 30px;
+}
+
+.second{
+    background-color: #e3f0ff;
+    padding-left : 10px;
+    padding-right : 10px;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-radius : 30px;
+    margin-left : 10px;
+}
+
+.third{
+    background-color: #e3f0ff;
+    padding-left : 10px;
+    padding-right : 10px;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-radius : 30px;
+    margin-left : 10px;
+}
+
+.fourth{
+    background-color: #e3f0ff;
+    padding-left : 10px;
+    padding-right : 10px;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-radius : 30px;
+    margin-left : 10px;
+}
+
+.fivth{
+    background-color: #e3f0ff;
+    padding-left : 10px;
+    padding-right : 10px;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-radius : 30px;
+    margin-left : 10px;
+}
+
+.social{
+    font-size : 20px;
+    margin-top : 20px;
+    margin-left :10px;
+    display: flex;
+    justify-content: space-evenly;
+}
