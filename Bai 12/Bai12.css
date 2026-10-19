@@ -1,0 +1,79 @@
+.first-box{
+    border :2px solid black;
+    width :95%;
+    margin-left:2%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+p.year{
+    font-size :20px;
+    height : 1px;
+    color: #C62828;
+    font-style: italic;
+    font-weight: bold;
+}
+
+p.month{
+    font-size: 30px;
+    height : 6px;
+    color : #1565C0;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+p.date{
+    font-size : 70px;
+    heightt : 30px;
+    color :#C62828 ;
+}
+
+p.day{
+    font-size : 30px;
+    color : #1565C0;
+}
+
+.good-day{
+    text-align: center;
+    color : #C62828;
+    font-style: italic;
+    font-size :30px;
+    margin-top : 15px;
+}
+
+.container{
+    border :3px solid #1565C0;
+    width :95%;
+    margin-left:2%;
+    text-align: center;
+    border-radius: 10px;
+    height : 100px;
+}
+
+button{
+    float :right;
+    width :100px;
+    height: 80px;
+    margin-top :10px;
+    margin-right: 30px;
+    border-radius: 10px;
+    background-color:darkgreen ;
+    color : white;
+}
+
+.text-box{
+    display: flex;
+    justify-content: space-around;
+}
+
+.box{
+    display: flex;
+    justify-content: space-around;
+}
+
+input[type ="number"]{
+    width :10%;
+    height :30px;
+    border-radius: 10px;
+    text-align: center;
+}
