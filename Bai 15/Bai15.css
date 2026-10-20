@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.calculator {
+    background-color: #1a1c23;
+    width: 350px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+}
+
+.display {
+    background-color: #0d2a1f;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.history {
+    color: #4caf50;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+.result {
+    color: #4caf50;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.keypad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.btn {
+    background-color: #2b323e;
+    color: white;
+    border: none;
+    padding: 20px;
+    font-size: 1.5rem;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+/* Tùy chỉnh màu sắc cho các nút đặc biệt */
+.btn-clear {
+    background-color: #e53935; /* Màu đỏ */
+}
+
+.btn-operator {
+    background-color: #1e88e5; /* Màu xanh dương */
+}
+
+.btn-equal {
+    background-color: #43a047; /* Màu xanh lá */
+}
+
+/* Nút số 0 chiếm 2 cột */
+.btn-zero {
+    grid-column: span 2;
+}
