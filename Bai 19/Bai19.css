@@ -1,0 +1,37 @@
+.container{
+    display : grid;
+    grid-template-columns: 30% 70%;
+    margin-top : 30px;
+}
+
+img{
+    width : 300px;
+}
+
+.content{
+    margin-left :15px;
+}
+
+.title{
+    color : #C9A227;
+    text-shadow: 2px 2px 4px #C9A227;
+    font-size :30px;
+    margin-bottom: 20px;
+}
+
+.box{
+    border : 2px dashed ;
+    border-color: orange;
+    width  : 92%;
+    border-radius: 10px;
+    padding-left : 10px;
+    padding-right: 10px;
+    float: left ;
+    font-size : 20px;
+    padding-bottom;
+}
+
+b{
+    color : red;
+}
+
