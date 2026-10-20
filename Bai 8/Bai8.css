@@ -1,0 +1,90 @@
+body{
+    background-color: white;
+}
+
+.hero-banner{
+    font-size : 50px;
+    color :#1668C1;
+    padding-bottom : 7px;
+    border-bottom: 3px solid blue;
+    width:95%;
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    width : 100%;
+    background-color:  white;
+    
+}
+
+.menu{
+    width : 15%;
+    background-color: darkgrey;
+    height : 1250px;
+}
+
+.header{
+    margin-left : 3%;
+    margin-top : 10px;
+    background-color:#1668C1 ;
+    color : white;
+    width: 140%;
+    padding-left : 7px;
+    padding-top : 2px;
+    padding-bottom: 2px;
+    border-radius: 5px ;
+    font-size : 35px;
+}
+
+.second-container{
+    width : 140%;
+    margin-left : 3%;
+    margin-right: 3%;
+    height : 150px;
+    border-bottom: 1px solid grey;
+}
+
+.sub-header{
+    margin-top : 7px;
+    color : #1668C1;
+    font-size : 25px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.para{
+    font-size : 20px;
+    width : 140%;
+}
+
+.img{
+    float: right;
+}
+
+img{
+    height :130px;
+    width:130%;
+    object-fit:contain;
+}
+
+.menu{
+    padding-left : 5px;
+    padding-top : 30px;
+    font-size: 20px;
+}
+
+.main-title{
+    font-size :25px;
+    color :blue;
+}
+
+
+
+
+
+
+
+
+
+
